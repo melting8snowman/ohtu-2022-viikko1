@@ -76,4 +76,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_negat_alkusaldo(self):
         var = Varasto(-2, alku_saldo = -30)
-        self.assertAlmostEqual(self.varasto.saldo, 1)
+        self.assertAlmostEqual(self.varasto.saldo, 0)
