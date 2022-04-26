@@ -74,6 +74,7 @@ class TestVarasto(unittest.TestCase):
         var = Varasto(-2)
         self.assertAlmostEqual(self.varasto.tilavuus, 10)
 
+
     def test_negat_alkusaldo(self):
         var = Varasto(-2, alku_saldo = -30)
         self.assertAlmostEqual(self.varasto.saldo, 0)
