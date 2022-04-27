@@ -95,4 +95,4 @@ disable=print-statement,
 
 [DESIGN]
         max-statements:20
-        max-complexity:3
+        max-complexity:4
